@@ -13,5 +13,5 @@ const puppeteer = require('puppeteer');
 	await page.goto('https://autoplius.lt')
 	await page.screenshot({path: 'example.png'});
 
-	await browser.close();s
+	await browser.close();
 })();
